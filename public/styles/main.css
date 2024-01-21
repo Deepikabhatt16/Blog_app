@@ -1,0 +1,154 @@
+/* Reset some default browser styles */
+
+
+body {background-image: url("https://www.buro247.my/images/2020/08/1596353026475061.jpg");
+  background-size: cover;
+  background-position:  center;
+ color: #333;
+}
+.container {
+  max-width: 800px;
+  background-image: url("https://pm1.narvii.com/6775/2371e19a187c7e36b26629fa6036cd08685bd48cv2_hq.jpg");
+  background-size: cover;
+  background-position:  center;
+  margin: 20px auto;
+  background-color: #c9c3c3;
+  padding: 10px 20px;
+  border: 2px solid rgb(73, 50, 50);
+  border-radius: 15px;
+  box-shadow:7px 4px 5px rgb(64, 54, 36); 
+}
+
+h1 {
+  font-size: 3.25em;
+  text-align: center;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 700;
+  margin-bottom: 30px;
+  text-shadow: 3px 5px 4px rgb(13, 11, 11);
+  color: #b09fb0dd;
+}
+
+h2 {
+  font-size: 2.75em;
+  margin-bottom: 10px;
+  color: #625739;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+p,
+input,
+textarea {font-size: 1.15rem;
+  margin-bottom: 30px;
+  font-family: cursive;
+  color: #413d40;
+  font-weight: 700;
+}
+
+small {
+  display: block;
+  margin-bottom: 20px;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #676161;
+}
+#author
+{font-size: 1.20rem;
+color:rgb(57, 56, 54) ;}
+input,
+textarea {
+  width: 90%;
+  font-weight: 600;
+  padding: 10px;
+  border: 1px solid #ddd;
+  background-color: #dedede;
+  border-radius: 4px;
+  font-size: 1em;
+  outline: none;
+  transition: border 0.3s;
+}
+
+a,
+button {
+  text-decoration: none;
+  background-color: #97c491;
+  color: #141313;
+  width: fit-content;
+  padding: 10px;
+  font-size: 1em;
+  border: none;
+  font-weight: 700;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button.full-width {
+  
+  text-align: center;
+  margin-left: 40%;
+  width: 20%;
+}
+
+a,
+button:hover {
+  background-color: #486231;
+}
+
+ul {
+  list-style-type: none;
+
+}
+
+li {
+padding-bottom: 25px;
+  border-bottom: 1px solid rgb(113, 101, 101)
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+a.edit {
+  color: #fff8f8;
+  background-color: #476a5e;
+   margin-right: 20px;
+   border: 1px solid rgb(144, 196, 144);
+   padding: 10px 25px;
+
+}
+
+a.delete {
+  border: 1px solid rgb(89, 60, 60);
+color: #fff8f8;
+  background-color: #6b3931;
+}
+
+a.delete:hover {
+  background-color: #99564e;
+}
+
+#newPostBtn {
+  margin-left: 20px;
+  background-color: #4b6a79;
+  padding: 10px 25px;
+  font-size: 1em;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border: none;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+}
+
+#newPostBtn:hover {
+  background-color: #a3b5ab;
+}
+
+h3{font-size: 2.5rem;
+  color: rgba(53, 54, 54, 0.398);
+  margin-top: 25px;
+}
